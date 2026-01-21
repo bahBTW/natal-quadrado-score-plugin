@@ -1,0 +1,21 @@
+name: ContadorPontos
+version: 1.1.0
+main: br.dev.bahbtw.contadorPontos.ContadorPontos
+api-version: '1.21'
+author: bahbtw
+description: Plugin para contabilizar pontos com multiplicadores por time
+website: https://github.com/seu-usuario/ContadorPontos
+
+commands:
+  contadorpontos:
+    description: Comando principal do plugin
+    usage: /<command> [multipliers|setmultiplier]
+    aliases: [cp, pontos]
+
+permissions:
+  contadorpontos.admin:
+    description: Permissão de administrador do plugin
+    default: op
+  contadorpontos.multiplier:
+    description: Ver multiplicadores
+    default: true
